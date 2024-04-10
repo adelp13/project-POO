@@ -20,6 +20,6 @@ The code also makes use of: <br> -overloading of operators such as +, -, *, -- <
 
   <br>
 <br> <br>
-Code version 2 restricts the classes on the Question, diamond of contests and ContestData, but it adds a singletone class OnlinePlatform, which will be the menu. The second version also implements:<br> - some classes inheriting the exception class for runtime errors<br>- template functions: <br> &emsp; -one for verifying input <br> &emsp; - calculateWroth(), which goes through the list of contests and calculates something for one of the three types of contests, using typeid to find the type of the pointer Contest. It applies dynamic_cast to use a function overriden in the diamond.<br>
+Code version 2 restricts the classes on the Question, diamond of contests and ContestData, but it adds a singletone class OnlinePlatform, which will be the menu. The second version also implements:<br> - some classes inheriting the exception class for runtime errors (what() function)<br>- template functions: <br> &emsp; -one for verifying input <br> &emsp; - calculateWroth(), which goes through the list of contests and calculates something for one of the three types of contests, using typeid to find the type of the pointer Contest. It applies dynamic_cast to use a function overriden in the diamond.<br>
 **Version 2 menu:**
 ![image](https://github.com/adelp13/project-POO/assets/116973684/7f6e8779-6a89-4697-8ebc-b1a3795cd462)
