@@ -16,7 +16,7 @@ ContestPrizeItem (the prize is an item from the store), ContestBothPrizes (the c
 The code also makes use of: <br> -overloading of operators such as +, -, *, -- <br>
 -runtime errors, constructors and = operator  <br>
 - << and >> operators overloading for objects (for reading and writing), cast operator <br>
-- upcasting, downcasting, friend operators <br>
+- upcasting, downcasting, friend operators, STL such as vectors, sets, maps<br>
 
   <br>
 <br> <br>
