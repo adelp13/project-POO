@@ -14,11 +14,11 @@ ContestPrizeItem (the prize is an item from the store), ContestBothPrizes (the c
 ![image](https://github.com/adelp13/project-POO/assets/116973684/f926a8da-e4d5-4d3d-bda4-1fb0ecc9c614)
 
 The code also makes use of: <br> -overloading of operators such as +, -, *, -- <br>
--runtime errors
--constructors and = 
--friend operators
-- << and >> operators overloading for objects (for reading and writing), cast operator
-- upcasting, downcasting
+-runtime errors, constructors and = operator  <br>
+- << and >> operators overloading for objects (for reading and writing), cast operator <br>
+- upcasting, downcasting, friend operators <br>
+
+  <br>
 <br> <br>
 Code version 2 restricts the classes on the Question, diamond of contests and ContestData, but it adds a singletone class OnlinePlatform, which will be the menu. The second version also implements:<br> - some classes inheriting the exception class for runtime errors<br>- template functions: <br> &emsp; -one for verifying input <br> &emsp; - calculateWroth(), which goes through the list of contests and calculates something for one of the three types of contests, using typeid to find the type of the pointer Contest. It applies dynamic_cast to use a function overriden in the diamond.<br>
 **Version 2 menu:**
